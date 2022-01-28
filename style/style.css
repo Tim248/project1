@@ -485,12 +485,6 @@ body {
     }
 }
 
-@media (max-width: 509px) {
-    .delivery {
-        height: 721px;
-    }
-}
-
 @media (max-width: 650px) {
     footer {
         padding: 45px 0px 0px 0;
@@ -501,7 +495,26 @@ body {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 509px) {
+    .delivery {
+        height: 721px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contacts {
+        margin-top: 130px;
+    }
+    
+    .all-btn {
+        padding: 16px;
+        font-size: 16px;
+    }
+    
+    .header__content-title {
+        font-size: 30px;
+    }
+    
    .partners {
        display: flex;
        flex-direction: column;
