@@ -14,6 +14,7 @@
     list-style: none;
     box-sizing: border-box;
     font-family: var(--msb);
+    user-select: none;
 }
 
 .all-btn {
@@ -185,10 +186,6 @@ body {
     list-style: inside;
     font-size: 20px;
     line-height: 24px;
-}
-
-.about__right-li:active {
-    background: #000;
 }
 
 .product {
