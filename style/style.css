@@ -449,7 +449,7 @@ body {
          position: fixed !important;
          display: block !important;
          z-index: 99;
-         right: 40px;
+         right: 10px;
      }
      .header__menu {
          width: 100%;
